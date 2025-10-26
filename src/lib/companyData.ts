@@ -1,4 +1,7 @@
 // Company profile data for AHSA Kreatif
+import { getLanguage } from './i18n';
+import { companyDataId } from './companyData.id';
+
 export interface Service {
 	id: string;
 	name: string;
@@ -118,7 +121,13 @@ export interface CompanyData {
 	};
 }
 
-export const companyData: CompanyData = {
+// Function to get company data based on language
+export function getCompanyData(lang: string = getLanguage()): CompanyData {
+	return lang === 'id' ? companyDataId : companyDataEn;
+}
+
+// English company data (original)
+const companyDataEn: CompanyData = {
 	name: 'AHSA Kreatif',
 	tagline: 'Innovative IT Solutions & Digital Transformation',
 	description: 'Leading IT solution provider specializing in full-stack development, cloud infrastructure, and AI-powered applications. We deliver scalable, high-performance solutions that drive business growth.',
@@ -563,3 +572,6 @@ export const companyData: CompanyData = {
 		}
 	}
 };
+
+// Export default company data (English)
+export const companyData = companyDataEn;

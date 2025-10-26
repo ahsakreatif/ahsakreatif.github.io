@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { t } from '$lib/i18n';
+	
 	export let data: {
 		title: string;
 		subtitle: string;
@@ -32,7 +34,7 @@
 				<!-- Badge -->
 				<div class="inline-flex items-center px-4 py-2 rounded-full bg-secondary-100 text-secondary-800 text-sm font-medium mb-6">
 					<span class="w-2 h-2 bg-secondary-600 rounded-full mr-2 animate-pulse"></span>
-					Innovative IT Solutions
+					{t('hero.badge')}
 				</div>
 				
 				<!-- Main Title with gradient text -->
@@ -61,7 +63,7 @@
 					</button>
 					<button class="group border-2 border-secondary-600 text-secondary-600 hover:bg-secondary-600 hover:text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 btn-secondary-glow animate-fade-in-up" style="animation-delay: 0.2s;">
 						<span class="flex items-center">
-							View Our Work
+							{t('hero.cta.secondary')}
 							<svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
 							</svg>
@@ -73,19 +75,19 @@
 				<div class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-6">
 					<div class="text-center p-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/20">
 						<div class="text-2xl font-bold text-primary-600 mb-1">9+</div>
-						<div class="text-sm text-gray-600">Years Experience</div>
+						<div class="text-sm text-gray-600">{t('hero.stats.experience')}</div>
 					</div>
 					<div class="text-center p-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/20">
 						<div class="text-2xl font-bold text-secondary-600 mb-1">25+</div>
-						<div class="text-sm text-gray-600">Projects Completed</div>
+						<div class="text-sm text-gray-600">{t('hero.stats.projects')}</div>
 					</div>
 					<div class="text-center p-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/20">
 						<div class="text-2xl font-bold text-primary-600 mb-1">15+</div>
-						<div class="text-sm text-gray-600">Technologies</div>
+						<div class="text-sm text-gray-600">{t('hero.stats.technologies')}</div>
 					</div>
 					<div class="text-center p-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/20">
 						<div class="text-2xl font-bold text-secondary-600 mb-1">100%</div>
-						<div class="text-sm text-gray-600">Client Satisfaction</div>
+						<div class="text-sm text-gray-600">{t('hero.stats.satisfaction')}</div>
 					</div>
 				</div>
 			</div>
@@ -125,7 +127,7 @@
 	<!-- Enhanced scroll indicator -->
 	<div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
 		<div class="flex flex-col items-center text-primary-600 animate-bounce">
-			<span class="text-sm font-medium mb-2">Scroll to explore</span>
+			<span class="text-sm font-medium mb-2">{t('hero.scroll')}</span>
 			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
 			</svg>

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { CompanyData } from '$lib/companyData';
+	import { t } from '$lib/i18n';
 	
 	export let data: CompanyData;
 	
@@ -31,25 +32,25 @@
 			<div class="hidden md:block">
 				<div class="ml-10 flex items-baseline space-x-8">
 					<a href="#home" class="text-gray-900 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
-						Home
+						{t('nav.home')}
 					</a>
 					<a href="#services" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
-						Services
+						{t('nav.services')}
 					</a>
 					<a href="#clients" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
 						Clients
 					</a>
 					<a href="#portfolio" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
-						Portfolio
+						{t('nav.portfolio')}
 					</a>
 					<a href="#about" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
-						About
+						{t('nav.about')}
 					</a>
 					<a href="#blog" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
-						Blog
+						{t('nav.blog')}
 					</a>
 					<a href="#contact" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
-						Contact
+						{t('nav.contact')}
 					</a>
 				</div>
 			</div>
@@ -85,25 +86,25 @@
 		<div class="md:hidden">
 			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
 				<a href="#home" on:click={closeMobileMenu} class="text-gray-900 hover:text-primary-600 block px-3 py-2 text-base font-medium">
-					Home
+					{t('nav.home')}
 				</a>
 				<a href="#services" on:click={closeMobileMenu} class="text-gray-600 hover:text-primary-600 block px-3 py-2 text-base font-medium">
-					Services
+					{t('nav.services')}
 				</a>
 				<a href="#clients" on:click={closeMobileMenu} class="text-gray-600 hover:text-primary-600 block px-3 py-2 text-base font-medium">
 					Clients
 				</a>
 				<a href="#portfolio" on:click={closeMobileMenu} class="text-gray-600 hover:text-primary-600 block px-3 py-2 text-base font-medium">
-					Portfolio
+					{t('nav.portfolio')}
 				</a>
 				<a href="#about" on:click={closeMobileMenu} class="text-gray-600 hover:text-primary-600 block px-3 py-2 text-base font-medium">
-					About
+					{t('nav.about')}
 				</a>
 				<a href="#blog" on:click={closeMobileMenu} class="text-gray-600 hover:text-primary-600 block px-3 py-2 text-base font-medium">
-					Blog
+					{t('nav.blog')}
 				</a>
 				<a href="#contact" on:click={closeMobileMenu} class="text-gray-600 hover:text-primary-600 block px-3 py-2 text-base font-medium">
-					Contact
+					{t('nav.contact')}
 				</a>
 				<div class="pt-4">
 					<a href="#contact" on:click={closeMobileMenu} class="bg-primary-600 hover:bg-primary-700 text-white block px-3 py-2 rounded-lg text-base font-medium text-center">

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Service } from '$lib/companyData';
+	import { t } from '$lib/i18n';
 	
 	export let services: Service[];
 	export let technologies: { category: string; items: string[] }[];
@@ -10,10 +11,10 @@
 		<!-- Section Header -->
 		<div class="text-center mb-16">
 			<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-				Our Services
+				{t('services.title')}
 			</h2>
 			<p class="text-xl text-gray-600 max-w-3xl mx-auto">
-				Comprehensive IT solutions tailored to your business needs
+				{t('services.subtitle')}
 			</p>
 		</div>
 		
@@ -52,7 +53,7 @@
 		<!-- Technologies Section -->
 		<div class="bg-gray-50 rounded-2xl p-8">
 			<h3 class="text-2xl font-bold text-gray-900 text-center mb-8">
-				Technologies We Master
+				{t('services.technologies.title')}
 			</h3>
 			
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
