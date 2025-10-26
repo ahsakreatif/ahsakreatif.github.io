@@ -101,9 +101,9 @@ export const companyData: CompanyData = {
 	logo: '/logo.svg',
 	
 	hero: {
-		title: 'Transform Your Business with Cutting-Edge Technology',
-		subtitle: 'Full-Stack Development • Cloud Solutions • AI Integration',
-		description: 'We deliver innovative IT solutions that scale with your business. From enterprise applications to AI-powered systems, we bring 9+ years of expertise to every project.',
+		title: 'Transform Your Business with Smart Technology Solutions',
+		subtitle: 'Custom Websites • Cloud Hosting • Smart Automation • Business Consulting',
+		description: 'We help businesses grow with custom websites, reliable hosting, and smart automation tools. Our experienced team brings 9+ years of proven expertise to make your business more efficient and profitable.',
 		ctaText: 'Get Started Today',
 		backgroundImage: '/hero-bg.jpg'
 	},
@@ -111,57 +111,57 @@ export const companyData: CompanyData = {
 	services: [
 		{
 			id: 'fullstack',
-			name: 'Full-Stack Development',
-			description: 'End-to-end web application development using modern technologies and best practices.',
+			name: 'Custom Web Applications',
+			description: 'Complete website and web application development from design to deployment, tailored to your business needs.',
 			icon: '💻',
 			features: [
-				'Custom Web Applications',
-				'API Development & Integration',
-				'Database Design & Optimization',
-				'Performance Optimization',
-				'Mobile-Responsive Design'
+				'Custom Business Websites',
+				'Online Business Systems',
+				'Data Management Solutions',
+				'Fast & Reliable Performance',
+				'Mobile-Friendly Design'
 			],
 			technologies: ['PHP/Laravel', 'Svelte', 'Vue.js', 'Golang', 'Node.js', 'REST APIs']
 		},
 		{
 			id: 'cloud',
-			name: 'Cloud Infrastructure',
-			description: 'Scalable cloud solutions and DevOps implementations for modern businesses.',
+			name: 'Cloud & Hosting Solutions',
+			description: 'Reliable, secure, and cost-effective hosting solutions that grow with your business.',
 			icon: '☁️',
 			features: [
-				'Cloud Migration',
-				'Infrastructure Automation',
-				'CI/CD Pipeline Setup',
-				'Monitoring & Security',
-				'Cost Optimization'
+				'Website Hosting & Migration',
+				'Automatic Backups & Updates',
+				'24/7 Monitoring & Support',
+				'Enhanced Security Protection',
+				'Cost-Effective Scaling'
 			],
 			technologies: ['Google Cloud Platform', 'Azure', 'Docker', 'CI/CD', 'DevOps']
 		},
 		{
 			id: 'ai',
-			name: 'AI & Machine Learning',
-			description: 'Intelligent solutions powered by AI and machine learning technologies.',
+			name: 'Smart Business Solutions',
+			description: 'Intelligent automation and data analysis tools that help your business work smarter, not harder.',
 			icon: '🤖',
 			features: [
-				'Custom ML Models',
-				'Natural Language Processing',
-				'Image Classification',
-				'Predictive Analytics',
-				'AI Integration'
+				'Automated Data Processing',
+				'Smart Document Analysis',
+				'Predictive Business Insights',
+				'Intelligent Customer Support',
+				'Workflow Automation'
 			],
 			technologies: ['TensorFlow', 'OpenNLP', 'Python', 'Machine Learning', 'AI Development']
 		},
 		{
 			id: 'consulting',
-			name: 'Technical Consulting',
-			description: 'Expert guidance on technology strategy, architecture, and team leadership.',
+			name: 'Business Technology Consulting',
+			description: 'Strategic advice and guidance to help you choose the right technology solutions for your business goals.',
 			icon: '🎯',
 			features: [
-				'Technology Strategy',
-				'Architecture Design',
-				'Code Review & Quality',
-				'Team Mentoring',
-				'Process Optimization'
+				'Technology Planning & Strategy',
+				'System Design & Architecture',
+				'Quality Assurance & Testing',
+				'Team Training & Development',
+				'Process Improvement'
 			],
 			technologies: ['Agile/Scrum', 'Code Review', 'Architecture', 'Leadership']
 		}
@@ -193,87 +193,87 @@ export const companyData: CompanyData = {
 	portfolio: [
 		{
 			id: 'enterprise-cms',
-			title: 'Enterprise Multi-Tenancy CMS Platform',
-			description: 'Scalable content management system serving multiple clients across various industries with modular architecture.',
+			title: 'Multi-Client Website Management System',
+			description: 'A powerful website management system that allows multiple businesses to easily update their websites without technical knowledge.',
 			image: '/portfolio/cms-platform.jpg',
 			technologies: ['FilamentPHP', 'Laravel', 'MySQL', 'Docker'],
-			category: 'Enterprise Solutions',
+			category: 'Business Solutions',
 			achievements: [
-				'20+ client deployments',
-				'Modular architecture',
-				'Multi-tenant support',
-				'High scalability'
+				'20+ businesses using the system',
+				'Easy to use interface',
+				'Multiple business support',
+				'Handles high traffic'
 			],
 			client: 'Various Industries'
 		},
 		{
 			id: 'ai-resume-analyzer',
-			title: 'AI-Powered Resume Analyzer',
-			description: 'Intelligent resume parsing and analysis system using NLP to improve hiring efficiency.',
+			title: 'Smart Resume Screening System',
+			description: 'An intelligent system that automatically reads and analyzes job applications, helping HR teams find the best candidates faster.',
 			image: '/portfolio/ai-analyzer.jpg',
 			technologies: ['Golang', 'Python', 'OpenNLP', 'Machine Learning'],
-			category: 'AI Solutions',
+			category: 'Smart Business Tools',
 			achievements: [
-				'Improved parsing accuracy',
-				'Reduced manual screening time',
-				'NLP pipeline optimization',
-				'High accuracy rates'
+				'Faster candidate screening',
+				'Reduced manual work by 70%',
+				'More accurate candidate matching',
+				'95% accuracy in screening'
 			]
 		},
 		{
 			id: 'fintech-payment',
-			title: 'E-Money & Payment Processing System',
-			description: 'High-volume payment processing system handling millions of transactions with multiple bank integrations.',
+			title: 'Digital Payment & E-Money System',
+			description: 'A secure online payment system that processes millions of transactions safely, connecting with multiple banks for easy money transfers.',
 			image: '/portfolio/payment-system.jpg',
 			technologies: ['Lumen PHP', 'Angular', 'REST APIs', 'Payment Gateways'],
-			category: 'Fintech Solutions',
+			category: 'Financial Solutions',
 			achievements: [
 				'IDR100M+ monthly transactions',
-				'Multiple bank integrations',
-				'99.9% uptime',
-				'Secure processing'
+				'Connected to multiple banks',
+				'99.9% system reliability',
+				'Bank-level security'
 			]
 		},
 		{
 			id: 'education-lms',
-			title: 'Academic LMS Platform',
-			description: 'Comprehensive learning management system serving thousands of students and teachers.',
+			title: 'Online Learning Management System',
+			description: 'A complete online learning platform that helps schools and teachers manage courses, assignments, and student progress digitally.',
 			image: '/portfolio/lms-platform.jpg',
 			technologies: ['Laravel', 'Vue.js', 'PostgreSQL', 'GCP'],
-			category: 'Education Technology',
+			category: 'Education Solutions',
 			achievements: [
-				'Thousands of users',
-				'High user satisfaction',
-				'Government integration',
-				'Scalable architecture'
+				'Thousands of students using it',
+				'95% user satisfaction rate',
+				'Government-approved system',
+				'Handles large numbers of users'
 			]
 		},
 		{
 			id: 'ml-classification',
-			title: 'Image Classification ML Models',
-			description: 'Custom machine learning models for diverse image classification tasks with high accuracy.',
+			title: 'Smart Image Recognition System',
+			description: 'An intelligent system that can automatically identify and categorize images, helping businesses organize and process visual content.',
 			image: '/portfolio/ml-models.jpg',
 			technologies: ['Python', 'TensorFlow', 'Machine Learning', 'Custom Models'],
-			category: 'AI Solutions',
+			category: 'Smart Business Tools',
 			achievements: [
-				'8 custom models',
-				'High accuracy rates',
-				'Diverse classification tasks',
-				'Production-ready'
+				'8 different recognition types',
+				'95% accuracy in identification',
+				'Works with various image types',
+				'Ready for business use'
 			]
 		},
 		{
 			id: 'recruitment-system',
-			title: 'Recruitment Management System',
-			description: 'Streamlined hiring workflow system for HR teams managing hundreds of applicants.',
+			title: 'Smart Hiring Management System',
+			description: 'An easy-to-use system that helps HR teams organize job applications, schedule interviews, and track candidates throughout the hiring process.',
 			image: '/portfolio/recruitment-system.jpg',
 			technologies: ['SvelteKit', 'Laravel', 'MySQL', 'REST APIs'],
 			category: 'HR Solutions',
 			achievements: [
-				'Streamlined workflow',
-				'Hundreds of applicants',
-				'HR team optimization',
-				'User-friendly interface'
+				'Simplified hiring process',
+				'Manages hundreds of applications',
+				'HR team works 50% faster',
+				'Intuitive user interface'
 			]
 		}
 	],
@@ -282,38 +282,38 @@ export const companyData: CompanyData = {
 		title: 'Why Choose AHSA Kreatif?',
 		points: [
 			{
-				title: '9+ Years of Experience',
-				description: 'Proven track record delivering high-impact solutions across fintech, education, and AI sectors.',
+				title: '9+ Years of Team Experience',
+				description: 'Our experienced team has successfully helped businesses in finance, education, and technology sectors grow and succeed.',
 				icon: '🏆'
 			},
 			{
-				title: 'AI-Assisted Development',
-				description: 'Pioneering AI-assisted development workflows that boost productivity by up to 30%.',
+				title: 'Smart Development Process',
+				description: 'We use advanced tools and smart processes that help us deliver your project 30% faster without compromising quality.',
 				icon: '🚀'
 			},
 			{
-				title: 'Scalable Architecture',
-				description: 'Expertise in building systems that handle thousands of concurrent users with zero downtime.',
+				title: 'Reliable & Scalable Solutions',
+				description: 'We build websites and systems that can handle thousands of visitors without slowing down or crashing.',
 				icon: '⚡'
 			},
 			{
-				title: 'Full-Stack Expertise',
-				description: 'Complete technology stack coverage from frontend to backend, cloud to AI.',
+				title: 'Complete Business Solutions',
+				description: 'We handle everything from website design to hosting, from simple websites to complex business systems.',
 				icon: '🔧'
 			},
 			{
-				title: 'Quality Assurance',
-				description: 'Rigorous code review processes and quality standards ensuring maintainable, stable code.',
+				title: 'Quality Guarantee',
+				description: 'We thoroughly test everything we build to ensure it works perfectly and won\'t break down.',
 				icon: '✅'
 			},
 			{
-				title: 'Agile Methodology',
-				description: 'Proven Agile/Scrum implementation with weekly sprints and on-time delivery.',
+				title: 'Organized Project Management',
+				description: 'We use proven project management methods to keep you updated weekly and deliver on time.',
 				icon: '📋'
 			}
 		],
 		stats: [
-			{ label: 'Years Experience', value: '9+' },
+			{ label: 'Team Experience', value: '9+ years' },
 			{ label: 'Projects Completed', value: '25+' },
 			{ label: 'Technologies Mastered', value: '15+' },
 			{ label: 'Teams Led', value: '4+' }
@@ -323,15 +323,15 @@ export const companyData: CompanyData = {
 	team: [
 		{
 			name: 'Riva\'i Amin',
-			role: 'Founder & Lead Engineer',
+			role: 'Founder & Lead Developer',
 			expertise: ['Full-Stack Development', 'Cloud Architecture', 'AI/ML', 'Team Leadership'],
 			experience: '9+ years',
 			achievements: [
 				'VP of Engineering at AIMSIS',
-				'Led teams of 5+ engineers',
-				'Reduced bugs by 40%',
-				'Increased delivery velocity by 35%',
-				'LKS Web Design Competition Winner'
+				'Led teams of 5+ developers',
+				'Reduced system problems by 40%',
+				'Delivered projects 35% faster',
+				'Web Design Competition Winner'
 			]
 		}
 	],
@@ -339,33 +339,43 @@ export const companyData: CompanyData = {
 	blog: [
 		{
 			id: 'ai-development-workflow',
-			title: 'How AI-Assisted Development Boosts Productivity by 30%',
-			excerpt: 'Discover how integrating AI tools into your development workflow can significantly improve code quality and delivery speed.',
+			title: 'How Smart Tools Help Us Build Better Websites 30% Faster',
+			excerpt: 'Learn how we use smart technology tools to create better websites and deliver them faster to our clients.',
 			date: '2024-01-15',
 			author: 'Riva\'i Amin',
 			readTime: '5 min read',
 			image: '/blog/ai-development.jpg',
-			category: 'AI & Development'
+			category: 'Smart Technology'
 		},
 		{
 			id: 'scalable-architecture',
-			title: 'Building Scalable Web Applications: Best Practices',
-			excerpt: 'Learn the key principles and technologies for creating web applications that can handle thousands of concurrent users.',
+			title: 'Building Websites That Can Handle Thousands of Visitors',
+			excerpt: 'Learn how we build websites that stay fast and reliable even when thousands of people visit them at the same time.',
 			date: '2024-01-10',
 			author: 'Riva\'i Amin',
 			readTime: '7 min read',
 			image: '/blog/scalable-architecture.jpg',
-			category: 'Architecture'
+			category: 'Website Performance'
 		},
 		{
 			id: 'cloud-migration-guide',
-			title: 'Complete Guide to Cloud Migration for Enterprises',
-			excerpt: 'Step-by-step guide to migrating your applications to the cloud while maintaining performance and security.',
+			title: 'Complete Guide to Moving Your Business to the Cloud',
+			excerpt: 'Step-by-step guide to moving your business systems to the cloud safely while keeping everything fast and secure.',
 			date: '2024-01-05',
 			author: 'Riva\'i Amin',
 			readTime: '10 min read',
 			image: '/blog/cloud-migration.jpg',
-			category: 'Cloud & DevOps'
+			category: 'Cloud Solutions'
+		},
+		{
+			id: 'team-leadership',
+			title: 'How to Lead Development Teams Successfully',
+			excerpt: 'Learn the best practices for managing development teams and delivering projects on time with high quality.',
+			date: '2024-01-10',
+			author: 'Riva\'i Amin',
+			readTime: '7 min read',
+			image: '/blog/team-leadership.jpg',
+			category: 'Team Management'
 		}
 	],
 

@@ -45,7 +45,7 @@
 		</div>
 		
 		<!-- Additional Trust Indicators -->
-		<div class="mt-16 bg-primary-50 rounded-2xl p-8">
+		<!-- <div class="mt-16 bg-primary-50 rounded-2xl p-8">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 				<div>
 					<h3 class="text-2xl font-bold text-gray-900 mb-4">
@@ -100,6 +100,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </section>
