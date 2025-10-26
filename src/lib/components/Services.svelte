@@ -22,7 +22,7 @@
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
 			{#each services as service}
 				<div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 border border-gray-100">
-					<div class="text-4xl mb-4">{service.icon}</div>
+					<div class="text-primary-600 mb-4">{@html service.icon}</div>
 					<h3 class="text-xl font-semibold text-gray-900 mb-3">{service.name}</h3>
 					<p class="text-gray-600 mb-4">{service.description}</p>
 					

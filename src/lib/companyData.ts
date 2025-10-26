@@ -147,7 +147,7 @@ const companyDataEn: CompanyData = {
 			id: 'fullstack',
 			name: 'Custom Web Applications',
 			description: 'Complete website and web application development from design to deployment, tailored to your business needs.',
-			icon: '💻',
+			icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>',
 			features: [
 				'Custom Business Websites',
 				'Online Business Systems',
@@ -161,7 +161,7 @@ const companyDataEn: CompanyData = {
 			id: 'cloud',
 			name: 'Cloud & Hosting Solutions',
 			description: 'Reliable, secure, and cost-effective hosting solutions that grow with your business.',
-			icon: '☁️',
+			icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path></svg>',
 			features: [
 				'Website Hosting & Migration',
 				'Automatic Backups & Updates',
@@ -175,7 +175,7 @@ const companyDataEn: CompanyData = {
 			id: 'ai',
 			name: 'Smart Business Solutions',
 			description: 'Intelligent automation and data analysis tools that help your business work smarter, not harder.',
-			icon: '🤖',
+			icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>',
 			features: [
 				'Automated Data Processing',
 				'Smart Document Analysis',
@@ -189,7 +189,7 @@ const companyDataEn: CompanyData = {
 			id: 'consulting',
 			name: 'Business Technology Consulting',
 			description: 'Strategic advice and guidance to help you choose the right technology solutions for your business goals.',
-			icon: '🎯',
+			icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>',
 			features: [
 				'Technology Planning & Strategy',
 				'System Design & Architecture',
@@ -318,32 +318,32 @@ const companyDataEn: CompanyData = {
 			{
 				title: '9+ Years of Team Experience',
 				description: 'Our experienced team has successfully helped businesses in finance, education, and technology sectors grow and succeed.',
-				icon: '🏆'
+				icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>'
 			},
 			{
 				title: 'Smart Development Process',
 				description: 'We use advanced tools and smart processes that help us deliver your project 30% faster without compromising quality.',
-				icon: '🚀'
+				icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>'
 			},
 			{
 				title: 'Reliable & Scalable Solutions',
 				description: 'We build websites and systems that can handle thousands of visitors without slowing down or crashing.',
-				icon: '⚡'
+				icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>'
 			},
 			{
 				title: 'Complete Business Solutions',
 				description: 'We handle everything from website design to hosting, from simple websites to complex business systems.',
-				icon: '🔧'
+				icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>'
 			},
 			{
 				title: 'Quality Guarantee',
 				description: 'We thoroughly test everything we build to ensure it works perfectly and won\'t break down.',
-				icon: '✅'
+				icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>'
 			},
 			{
 				title: 'Organized Project Management',
 				description: 'We use proven project management methods to keep you updated weekly and deliver on time.',
-				icon: '📋'
+				icon: '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>'
 			}
 		],
 		stats: [

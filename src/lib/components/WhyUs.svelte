@@ -33,7 +33,7 @@
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 			{#each data.points as point}
 				<div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
-					<div class="text-4xl mb-4">{point.icon}</div>
+					<div class="text-primary-600 mb-4">{@html point.icon}</div>
 					<h3 class="text-xl font-semibold text-gray-900 mb-3">
 						{point.title}
 					</h3>
