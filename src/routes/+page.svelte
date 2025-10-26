@@ -4,6 +4,7 @@
 	import Clients from '$lib/components/Clients.svelte';
 	import Portfolio from '$lib/components/Portfolio.svelte';
 	import WhyUs from '$lib/components/WhyUs.svelte';
+	import Pricing from '$lib/components/Pricing.svelte';
 	import Blog from '$lib/components/Blog.svelte';
 	import CTA from '$lib/components/CTA.svelte';
 	import Contact from '$lib/components/Contact.svelte';
@@ -40,6 +41,9 @@
 </section>
 <section id="about">
 	<WhyUs data={companyData.whyUs} />
+</section>
+<section id="pricing">
+	<Pricing />
 </section>
 <section id="blog">
 	<Blog posts={companyData.blog} />

@@ -46,6 +46,26 @@ export interface Client {
 	category: string;
 }
 
+export interface PricingFeature {
+	name: string;
+	included: boolean;
+}
+
+export interface PricingPlan {
+	id: string;
+	name: string;
+	price: {
+		original?: string;
+		current: string;
+		period: string;
+	};
+	description: string;
+	features: PricingFeature[];
+	ctaText: string;
+	ctaAction: string;
+	popular?: boolean;
+}
+
 export interface CompanyData {
 	name: string;
 	tagline: string;
@@ -80,6 +100,11 @@ export interface CompanyData {
 	team: TeamMember[];
 	blog: BlogPost[];
 	clients: Client[];
+	pricing: {
+		title: string;
+		subtitle: string;
+		plans: PricingPlan[];
+	};
 	contact: {
 		email: string;
 		phone: string;
@@ -437,6 +462,94 @@ export const companyData: CompanyData = {
 			category: 'Media & Marketing'
 		}
 	],
+
+	pricing: {
+		title: 'Choose the Right Package for Your Business',
+		subtitle: 'Complete solutions for your website and business system needs',
+		plans: [
+			{
+				id: 'basic',
+				name: 'Basic',
+				price: {
+					original: 'IDR 1,5 Juta',
+					current: 'IDR 500 Ribu',
+					period: '/Tahun'
+				},
+				description: 'Perfect for starting a business and market testing',
+				features: [
+					{ name: 'Free Hosting & Domain', included: true },
+					{ name: 'Responsive Design', included: true },
+					{ name: 'SEO Friendly', included: true },
+					{ name: 'Google Analytics', included: true },
+					{ name: 'Exclusive Image Assets', included: true },
+					{ name: 'Contact Form', included: true },
+					{ name: 'Latest Technology', included: true },
+					{ name: 'Animation', included: true },
+					{ name: '5 Components / Page', included: true },
+					{ name: 'Custom Design', included: false },
+					{ name: 'Mobile Ready', included: false },
+					{ name: 'Content Management', included: false },
+					{ name: 'Feature Requests', included: false }
+				],
+				ctaText: 'Order Now',
+				ctaAction: 'order-basic'
+			},
+			{
+				id: 'pro',
+				name: 'Pro',
+				price: {
+					original: 'IDR 2,5 Juta',
+					current: 'IDR 2 Juta',
+					period: '/Year'
+				},
+				description: 'For those who want to improve their branding and business reach',
+				features: [
+					{ name: 'Free Hosting & Domain', included: true },
+					{ name: 'Responsive Design', included: true },
+					{ name: 'SEO Friendly', included: true },
+					{ name: 'Google Analytics', included: true },
+					{ name: 'Exclusive Image Assets', included: true },
+					{ name: 'Contact Form', included: true },
+					{ name: 'Latest Technology', included: true },
+					{ name: 'Animation', included: true },
+					{ name: '10 Components / Page', included: true },
+					{ name: 'Custom Design', included: true },
+					{ name: 'Content Management', included: true },
+					{ name: 'Mobile Ready', included: false },
+					{ name: 'Feature Requests', included: false }
+				],
+				ctaText: 'Order Now',
+				ctaAction: 'order-pro',
+				popular: true
+			},
+			{
+				id: 'enterprise',
+				name: 'Enterprise',
+				price: {
+					current: 'Starting from IDR 4 Juta',
+					period: ''
+				},
+				description: 'For your unique business idea',
+				features: [
+					{ name: 'Free Hosting & Domain', included: true },
+					{ name: 'Responsive Design', included: true },
+					{ name: 'SEO Friendly', included: true },
+					{ name: 'Google Analytics', included: true },
+					{ name: 'Exclusive Image Assets', included: true },
+					{ name: 'Contact Form', included: true },
+					{ name: 'Latest Technology', included: true },
+					{ name: 'Animation', included: true },
+					{ name: '10+ Components / Page', included: true },
+					{ name: 'Custom Design', included: true },
+					{ name: 'Mobile Ready', included: true },
+					{ name: 'Content Management', included: true },
+					{ name: 'Feature Requests', included: true }
+				],
+				ctaText: 'Consult Now',
+				ctaAction: 'consult-enterprise'
+			}
+		]
+	},
 
 	contact: {
 		email: 'hello@ahsakreatif.com',
